@@ -7,7 +7,11 @@ import com.lyc.autoui.selenium.conf.ConfigParam;
 import com.lyc.autoui.selenium.persistence.JdbcUtil;
 import com.lyc.autoui.selenium.thread.ProxySearchThread;
 
-
+/**
+ * 启动入口
+ * @author chuly
+ *
+ */
 public class SeleniumByThread extends Thread{
 	private static final Logger log = LoggerFactory.getLogger(SeleniumByThread.class);
 	

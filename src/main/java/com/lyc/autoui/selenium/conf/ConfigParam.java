@@ -31,7 +31,7 @@ public class ConfigParam {
 	//已使用的代理
 	public static final Map<String,Date> used_proxy = Maps.newConcurrentMap();//已使用的代理
 	
-	// selenium驱动
+	// selenium驱动 见./file/目录下，或者自己从网上下载对应版本的驱动
 	public static final String chrome_driver_file = "d:/selenium/chromedriver/v2.29/chromedriver.exe";//chrome驱动
 	public static final String firefox_driver_file = "d:/selenium/firefoxdriver/v0.16.1/geckodriver.exe";//火狐驱动
 	

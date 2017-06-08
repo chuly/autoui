@@ -1,39 +1,23 @@
 package com.lyc.autoui.selenium;
 
-import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import org.apache.http.HttpHost;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.lyc.autoui.constenum.PCUserAgentEnum;
-import com.lyc.autoui.selenium.bean.HttpProxyBean;
 import com.lyc.autoui.selenium.conf.ConfigParam;
-import com.lyc.autoui.selenium.persistence.JdbcUtil;
 import com.lyc.autoui.utils.DelayUtil;
-import com.lyc.autoui.utils.HttpClientProxy;
-import com.lyc.autoui.utils.HttpProxySearcher;
 
 
 public class Test extends Thread{
