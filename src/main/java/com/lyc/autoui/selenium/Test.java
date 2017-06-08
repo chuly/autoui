@@ -68,15 +68,4 @@ public class Test extends Thread{
 		}
 	}
 	
-	private void delay(long t1,int randomT2) throws Exception{
-		long sleepTime = t1 + new Random().nextInt(randomT2);
-		System.out.println("睡眠ms："+sleepTime);
-		Thread.sleep(sleepTime);
-	}
-	SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-	private void log(String s){
-		System.out.println("SeleniumTest "+f.format(new Date())+" "+s);
-//		log.info(s);
-	}
-	
 }
